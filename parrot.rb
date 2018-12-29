@@ -5,5 +5,5 @@ phrase = "Squawk!"
 
 def parrot(phrase)
   puts phrase
-  retutrn phrase
+  return phrase
 end
