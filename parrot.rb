@@ -3,8 +3,8 @@
 
 phrase = "Squawk!"
 
-puts phrase
 
 def parrot(phrase)
+  puts phrase
   return phrase
 end
