@@ -5,6 +5,7 @@ phrase = "Pretty Bird"
 def parrot(phrase)
 puts phrase
 return phrase
+binding.pry
 end
 
 def parrot()
