@@ -1,11 +1,9 @@
 # Create method `parrot` that outputs a given phrase and
 # returns the phrase
-phrase = "Pretty Bird"
 
-def parrot(phrase)
-puts phrase
-return phrase
-binding.pry
+def parrot("Pretty Bird!")
+puts "Pretty Bird!"
+return "Pretty Bird!"
 end
 
 def parrot()
